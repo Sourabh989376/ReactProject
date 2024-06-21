@@ -43,11 +43,13 @@ function Home() {
                 apidata.map((item, i) =>
                     <MDBCol key={i}>
                         <MDBCard className='h-100'>
-                            <MDBCardImage
+                         <center>
+                         <MDBCardImage
                                 src={item.image}
                                 alt='...'
                                 position='top' style={{ width: "100px", height: "100px" }}
                             />
+                         </center>
                             <MDBCardBody>
                                 <MDBCardTitle>{item.title}</MDBCardTitle>
                                 <MDBCardTitle style={{ color: "red" }}>{item.price * 80} Rs</MDBCardTitle>
