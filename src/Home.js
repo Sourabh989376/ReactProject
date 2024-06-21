@@ -55,7 +55,9 @@ function Home() {
                                 <MDBCardTitle style={{ color: "red" }}>{item.price * 80} Rs</MDBCardTitle>
                                 <MDBCardTitle style={{ color: "green" }}>{item.category} </MDBCardTitle>
                            
-                                <MDBBtn onClick={()=>handleclick(item.id)}>view details{item.id}</MDBBtn>
+                                <MDBBtn onClick={()=>handleclick(item.id)}>view details{item.id}</MDBBtn> &nbsp;&nbsp;
+                                <MDBBtn >Add Cart</MDBBtn>
+
                             </MDBCardBody>
                         </MDBCard>
                     </MDBCol>
